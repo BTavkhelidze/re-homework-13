@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main__container">
+      <header>
+        <div class="header__wrapper">
+          <h1>devfinder</h1>
+          <div class="dayNight">
+            <span class="dayNightNam"> DARK </span>
+            <img
+              class="dayNightIcon"
+              src="./images/night.png"
+              alt="night icon"
+            />
+          </div>
+        </div>
+      </header>
+      <section class="input__wrapper">
+        <label for="">
+          <div>
+            <img src="./images/search icon.svg" alt="search icon" />
+            <input
+              type="search"
+              class="input"
+              placeholder="Search GitHub username…"
+            />
+          </div>
+          <span class="noResult">No result</span>
+          <button type="button" class="searchBtn">Search</button>
+        </label>
+      </section>
+      <section class="output__wrapper">
+        <div class="profile">
+          <img
+            class="avatarUrl"
+            src="/images/profile photo.png"
+            alt="profilr photo"
+          />
+          <div class="profile__info">
+            <div>
+              <h2 class="profileName">The Octocat</h2>
+              <p class="profileEmail">@octocat</p>
+            </div>
+            <p class="dataNum">Joined 25 Jan 2011</p>
+          </div>
+        </div>
+        <div class="describtion__P">
+          <div>
+            <p class="bio">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
+              odio. Quisque volutpat mattis eros.
+            </p>
+          </div>
+        </div>
+
+        <div class="folowersFolowing">
+          <div>
+            <div>
+              <p>repos</p>
+              <span class="repos">8</span>
+            </div>
+            <div>
+              <p>Followers</p>
+              <span class="followers">3938</span>
+            </div>
+            <div>
+              <p>Following</p>
+              <span class="following">9</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="addition-links">
+          <div>
+            <div>
+              <div>
+                <img src="./images/lovation.svg" alt="location icon" />
+                <p class="location">San Francisco</p>
+              </div>
+              <div>
+                <img src="./images/link.svg" alt="ghithub link icon" />
+                <a href="https://github.blog  " class="githubBlog">
+                  https://github.blog</a
+                >
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="./images/twitter.svg" alt="twiter icon" />
+                <a class="not__Avelable twitter" href="#">Not Available</a>
+              </div>
+              <div>
+                <img src="./images/github.svg" alt="github icon" />
+                <a href="#" class="company">@github</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

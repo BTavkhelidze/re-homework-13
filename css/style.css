@@ -1,0 +1,282 @@
+:root {
+  --white-color: #ffffff;
+  --mainBody-color: #f6f8ff;
+
+  --logo-color: #222731;
+  --profileName-color: #2b3442;
+
+  --primeryText-color: #4b6a9b;
+  --seconderyText-color: #697c9a;
+
+  --inputOut-color: #fefefe;
+  --folowersDet-color: #f6f8ff;
+
+  --button-color: #0079ff;
+  --noResult-color: #f74646;
+}
+
+.dark--mode {
+  --mainBody-color: #141d2f;
+  --logo-color: #ffffff;
+  --primeryText-color: #ffffff;
+  --seconderyText-color: #ffffff;
+
+  --inputOut-color: #1e2a47;
+  --profileName-color: #ffffff;
+  --button-color: #0079ff;
+}
+
+/* !main Container starts here */
+
+.main__container {
+  max-width: 73rem;
+  margin: 14.4rem auto;
+}
+
+/* !header  */
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  margin-bottom: 3.6rem;
+}
+
+.dayNight {
+  cursor: pointer;
+}
+
+.header__wrapper > h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.851rem;
+  text-align: left;
+  color: var(--logo-color);
+}
+
+.header__wrapper > div {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.header__wrapper > div > span {
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.925rem;
+  letter-spacing: 0.25rem;
+  text-align: right;
+  color: var(--seconderyText-color);
+}
+
+/* heared ends here */
+
+/* !input form starts here */
+
+.input__wrapper > label {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--inputOut-color);
+  border-radius: 1.5rem;
+  box-shadow: 0px 16px 30px -10px #4660bb33;
+}
+
+.input__wrapper > label > div {
+  display: flex;
+  gap: 2.3rem;
+}
+
+.input__wrapper > label img {
+  max-width: 2.4rem;
+  height: 2.4rem;
+  align-self: center;
+  margin-left: 3.2rem;
+}
+
+.input__wrapper > label input {
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  text-align: left;
+  border: none;
+  color: var(--primeryText-color);
+  outline-style: none;
+  width: 40rem;
+  background-color: var(--inputOut-color);
+}
+
+.noResult {
+  align-self: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2.222rem;
+  text-align: left;
+  color: var(--noResult-color);
+  margin-right: 2.4rem;
+  display: none;
+}
+
+.input__wrapper > label button {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.37rem;
+  text-align: left;
+  padding: 1.2rem 2.4rem;
+  background-color: var(--button-color);
+  color: var(--white-color);
+  margin: 0.95rem 1rem 0.95rem 0;
+
+  border: none;
+  border-radius: 1rem;
+}
+
+/* !output sec starts here */
+
+.output__wrapper {
+  display: none;
+  gap: 3.7rem;
+  padding: 4.8rem;
+  background-color: var(--inputOut-color);
+  margin-top: 2.4rem;
+  box-shadow: 0px 16px 30px -10px #4660bb33;
+  border-radius: 1.5rem;
+}
+
+.profile {
+  display: flex;
+  gap: 3.7rem;
+}
+.profile > img {
+  max-width: 11.7rem;
+  height: 11.7rem;
+  border-radius: 50%;
+}
+
+.output__wrapper .profile__info {
+  width: 100%;
+  display: flex;
+  margin-bottom: 3.2rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.profile__info > p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.222rem;
+  text-align: right;
+  color: var(--seconderyText-color);
+}
+
+.profile__info > div > h2 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 3.851rem;
+  text-align: left;
+  color: var(--profileName-color);
+}
+
+.profile__info > div > p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+  text-align: left;
+  margin-top: 0.2rem;
+  color: var(--button-color);
+}
+
+.describtion__P {
+  width: 100%;
+
+  display: flex;
+  justify-content: right;
+}
+.describtion__P > div {
+  display: flex;
+  margin-top: 2rem;
+  color: var(--primeryText-color);
+  margin-bottom: 3rem;
+  width: 48rem;
+}
+
+.describtion__P > div > p {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+/* *folowers part */
+
+.folowersFolowing {
+  width: 100%;
+
+  display: flex;
+  justify-content: right;
+}
+.folowersFolowing > div {
+  display: flex;
+  background-color: var(--mainBody-color);
+  justify-content: space-between;
+  gap: 9.1rem;
+  padding: 1.6rem 8.3rem 1.6rem 3.2rem;
+  border-radius: 1rem;
+  max-width: 48rem;
+}
+
+.folowersFolowing p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  line-height: 1.925rem;
+  text-align: left;
+  color: var(--primeryText-color);
+}
+
+.folowersFolowing span {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 3.258rem;
+  text-align: left;
+  color: var(--profileName-color);
+}
+
+.addition-links {
+  width: 100%;
+
+  display: flex;
+  justify-content: right;
+  margin-top: 3.7rem;
+}
+
+.addition-links > div {
+  display: flex;
+  gap: 6.2rem;
+  margin-right: 10rem;
+}
+
+.addition-links > div > div > div {
+  display: flex;
+  gap: 1.6rem;
+}
+.addition-links > div > div > div:first-child {
+  margin-bottom: 2.1rem;
+}
+
+.addition-links > div > div > div a,
+.addition-links > div > div > div p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.222rem;
+  text-align: left;
+  color: var(--primeryText-color);
+}
+
+.not__Avelable {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  text-align: left;
+  color: var(--primeryText-color);
+}

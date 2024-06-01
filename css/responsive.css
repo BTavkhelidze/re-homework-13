@@ -1,0 +1,118 @@
+/* !Tablet screen responsive  */
+@media screen and (max-width: 850px) {
+  .main__container {
+    margin: 14rem 3rem;
+  }
+
+  .profile__info {
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 0;
+  }
+  .describtion__P > div > p {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+
+  .folowersFolowing > div {
+    margin-right: 2rem;
+  }
+
+  .addition-links > div {
+    margin-right: 12rem;
+  }
+}
+
+/* !Mobile screen responsive min-width: 350px */
+
+@media screen and (max-width: 660px) {
+  .input__wrapper > label input {
+    width: auto;
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    text-align: left;
+
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .input__wrapper > label > div {
+    gap: 0.8rem;
+  }
+
+  .input__wrapper > label button {
+    padding: 1.2rem 1.4rem;
+    font-size: 1.4rem;
+    line-height: 2.073rem;
+  }
+  .input__wrapper > label img {
+    max-width: 2rem;
+    height: 2rem;
+    align-self: center;
+    margin-left: 1.6rem;
+  }
+  .output__wrapper {
+    padding: 3.2rem 2.4rem;
+  }
+
+  .output__wrapper .profile__info {
+    margin-bottom: 0;
+  }
+
+  .profile > img {
+    max-width: 7rem;
+    height: 7rem;
+  }
+  .profile__info > div > h2 {
+    font-size: 16px;
+    line-height: 23.7px;
+  }
+  .profile__info > div > p {
+    font-size: 1.2rem;
+    line-height: 1.925px;
+    margin-top: 0.5rem;
+  }
+  .profile__info > p {
+    font-size: 1.2rem;
+    line-height: 1.925rem;
+    text-align: left;
+    margin-top: 1rem;
+  }
+
+  .describtion__P > div > p {
+    font-family: Space Mono;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+  }
+  .folowersFolowing > div {
+    margin-right: 0;
+    gap: 0;
+    width: 100%;
+    padding: 1.8rem 1.5rem;
+  }
+
+  .folowersFolowing p {
+    font-size: 1.1rem;
+    line-height: 1.62rem;
+  }
+  .folowersFolowing span {
+    font-size: 1.6rem;
+    line-height: 2.37rem;
+  }
+
+  .addition-links > div > div > div a,
+  .addition-links > div > div > div p {
+    font-size: 1.3rem;
+    line-height: 1.925rem;
+  }
+  .addition-links > div {
+    flex-wrap: wrap;
+    /* gap-: 1.6rem; */
+    column-gap: 6rem;
+    row-gap: 1.6rem;
+    justify-content: space-between;
+  }
+}
