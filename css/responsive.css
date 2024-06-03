@@ -26,6 +26,9 @@
 /* !Mobile screen responsive min-width: 350px */
 
 @media screen and (max-width: 660px) {
+  .main__container{
+    margin: 14rem 2.4rem;
+  }
   .input__wrapper > label input {
     width: auto;
 
